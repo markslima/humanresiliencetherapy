@@ -1,0 +1,458 @@
+/*** RESET ****/
+html, body, div, h1, h2, h3, h4, h5, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td {
+	margin: 0; padding: 0;
+}
+
+// THE KEY PURPLE IDENTITY COLOR FOR THIS PAGE IS #7251BC
+
+/*** First style for body color with correct Hex color code ***/
+body {
+	width: 100%;
+	background-color: #7251BC;
+ }
+
+#container{
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+	background: white;
+	background: url(../img/colorbar3.png);
+	background-repeat: repeat-x;
+}
+
+#container article {
+	position: relative;
+	line-height: 1.5;
+	font-size: .75em;
+	padding-top: 1.5em;
+}
+
+#graphic {
+	display: inherit;
+	margin: 0 auto;
+	left: 25%;
+	box-shadow: 2px 3px 12px #333;
+	margin-top: 60px;
+}
+
+header h1 {
+	font-family: 'Noto Sans', Helvetica, sans-serif;
+}
+
+h2, h3 {
+	font-family: 'Noto Sans', Helvetica, sans-serif;
+}
+
+hgroup {
+	margin-top: 0px;
+	margin-bottom: 15px;
+	text-shadow: 3px 3px 5px rgb(183, 183, 184);
+	clear: both;
+}
+
+
+h1 {
+	padding-top: 15px;;
+}
+
+h1#listing {
+	text-align: center;
+	padding-bottom: 25px;
+	font-size: 2.5em;
+	text-shadow: 3px 3px 5px rgb(183, 183, 184);
+	font-family: 'Noto Sans', Helvetica, sans-serif;
+}
+/***************************************
+* Header Config with Glyph & Motto
+***************************************/
+#brand {
+	position: relative;
+}
+#identity {
+	display: inline-block;
+	clear: both;
+}
+#statement {
+	margin-top: 2em;
+	float: right;
+	font-variant: small-caps;
+}
+#strength {
+	float: left;
+	z-index: -1;
+	padding-right: 10px;
+}
+
+#motto {
+	margin-left: 15px;  ;
+	float: right;
+	margin-top: 16px;
+	font-weight: lighter;
+	text-shadow: 3px 4px 8px grey;
+	font-style: italic;
+	letter-spacing: 1px;
+}
+
+/***************************************
+* Header Config with Glyph & Motto
+***************************************/
+#aphorism {
+	font-family: 'Bad Script', cursive;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: #f5f5f5;
+	text-shadow: 2px 2px 8px grey;
+}
+
+#address {
+	font-family: "Noto Sans", Helvetica, sans-serif;
+	font-size: 1.5em;;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/***************************************
+* Main NAV Styles
+***************************************/
+nav {
+	
+	list-style: none;
+	background: rgba(185, 177, 255, .75);
+	text-align: center;
+	padding-left: 120px;
+	box-shadow: 2px 2px 6px grey;
+	}
+
+.menu ul, .menu li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+.menu li a {
+
+	display: block;
+	line-height: 2em;
+	padding: 0 1em;
+	text-decoration: none;
+	margin-right: 5px;
+	color: black;
+	font-family: "Noto Sans", Helvetica, sans-serif;
+	transition-duration: .2;	
+}
+/***************************************
+* END Main NAV Styles
+***************************************/
+
+
+#map {
+	margin: 0 auto;
+	text-align: center;
+	height: 350px;
+	width: 425px;
+	box-shadow: 2px 3px 6px #444;
+}
+
+li a:hover {
+	color: #7521bc;
+	text-shadow: 1px 1px 4px blue;
+	transition: all .25s ease-in-out;
+}
+
+li a{
+	color: black;
+	font-style: bold;
+	transition: all .5s ease-in-out;
+}
+/***************************************
+* Recent June2013 Changes / Modifications
+***************************************/
+
+#cc {
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+/***************************************
+* Styling for Services LIST
+***************************************/
+#holder {
+	position: relative;
+	width: 550px;
+	height: 400px;
+	margin: 0 auto;
+}
+#primary {
+	width: 240px;
+	float: left;
+}
+#secondary {
+	width: 250px;
+	float: right;
+}
+#holder ul > li {
+	list-style-type: square !important;	
+}
+
+
+//ul.issues:first-child{
+//	float: left;
+//	padding-right: 40px;
+//	}
+
+//.issues  > li {
+	//display: list-item;
+//	float: none;
+	//list-style-type: disc;
+//	font-family: 'Noto Sans', Helvetica, sans-serif;
+//}
+
+/***************************************
+* END Services LIST styles
+***************************************/
+
+.welcome {
+	margin: 40px;
+	//font: italic 2em 'Merriweather Sans';
+	text-align: justify;
+}
+
+.purple {
+	color: #7251BC;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px gray;
+}
+
+.prose {
+	font-family: 'Noto sans', Helvetica, sans-serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	text-align: justify;
+	margin-top: 15px;
+	}
+
+.prose:first-letter {
+	
+	font-size: 1.5em;
+}
+
+p.prose:nth-child(3)  {
+	padding-top: 15px;
+	border-top: 2px solid #ccc;
+}
+
+.main {
+position: relative;
+	margin-top: 40px;
+	padding: 10px;
+	width: 960px;
+}
+
+.fees {
+	width: 600px;
+	margin: 0 auto;
+	font-family: 'Noto Sans', Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+
+figure	{
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+figcaption {
+	margin-top: 10px;
+	font-size: 75%;
+	font-family: 'Noto Sans', Helvetica, sans-serif;
+}
+
+.workshops > p {
+	margin-bottom: 15px;;
+}
+
+/***************************************
+* Workshops Listing Styles
+***************************************/
+
+
+
+/***************************************
+* END Workshops Listing Styles
+***************************************/
+
+/***************************************
+* Enable Telephone Link for Phones
+***************************************/
+
+a[href^="tel:"] {
+	text-decoration: none;
+	color: black;;
+}
+
+a[href^="tel:"]:before {
+    content: "\260E";
+    // display: block;
+    margin-right: 0.5em;
+}
+
+#contact a[href^="tel:"] {
+	text-decoration: none;
+	color: white;
+}
+
+/***************************************
+* END Telephone Smartphone Link
+***************************************/
+
+#address {
+	margin-top: 25px;
+}
+
+
+/***************************************
+* Resources Listing Styles
+***************************************/
+
+.resources {
+	width: 650px;
+	margin: 0 auto;
+}
+
+.resources a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*
+h4 {
+	// increment one counter at each h4 
+	counter-increment: heading;
+}
+h4::before {
+	content: counter(heading, lower-roman) ": ";
+}
+
+*/
+ul.resources {
+	list-style: none;
+}
+ol li {
+	// start a second counter for list items  
+	list-style-type: none;
+	counter-increment: item;
+}
+
+ol li::before {
+	counter: counter(item)": ";
+	color: #aaa;
+}
+
+ol{
+	// reset second counter for each new list 
+	counter-reset: item;
+}
+
+.resources li {
+	margin-bottom:18px;
+	font-family: 'Noto Sans', Helvetica, sans-serif;
+	
+}
+
+ol.resources {
+	line-height: 1.5em;
+	font-family: 'Noto Sans', Helvetica, sans-serif;
+	text-align: justify;
+	
+}
+
+
+.resources h2 {
+	padding-bottom: 20px;
+	font-family: 'Noto Sans', Helvetica, sans-serif;
+}
+
+/***************************************
+* END Resources Listing Styles
+***************************************/
+
+/***************************************
+* ClearFix code hack
+***************************************/
+
+.cf:before,
+.cf:after {
+	content: " ";
+	display: table;
+}
+
+.cf:after { 
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
+
+/***************************************
+* END ClearFix code hack
+***************************************/
+
+/***************************************
+* Footer Styles
+***************************************/
+footer {
+	
+	background: #7251bc;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7251bc), to(black));
+        background: -moz-linear-gradient(top, #7251bc, #000) ;
+        background: -o-linear-gradient(top, #7251bc, #000) ;
+        background:  -linear-gradient(top, #7251bc, #000) ;
+        // background: -webkit-gradient(linear, left top, left bottom, from(#7251bc), to(black));
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+	height: 5em;
+	color: rgb(250,249, 230);
+	width: 960px;
+	clear: both;
+}
+
+.contact {
+	font-weight: normal;
+	font-size: 1.25em;
+	color: white;
+}
+
+footer p {
+	padding-top: 25px;
+	font-family: Quicksand, Helvetica, sans-serif;
+	color: RGB(183,184,184);
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+	transition: all .5s ease-in-out;
+}
+
+footer a:hover {
+	color: white;
+	text-shadow: 1px 1px 6px white;
+	text-shadow: 1px 1px 6px white;
+	text-shadow: 1px 1px 6px white;
+	transition: all .25s ease-in-out;
+}
+/***************************************
+* END Footer Styles
+***************************************/

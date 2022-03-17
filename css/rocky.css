@@ -1,0 +1,176 @@
+/*** RESET ****/
+html, body, div, h1, h2, h3, h4, h5, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td {
+	margin: 0; padding: 0;
+}
+
+
+/*** First style for body color with correct Hex color code ***/
+body {
+	background: fixed;
+	background-image: url(../img/pattern.png);
+	height: 100%;
+	background-color: #666;
+		
+	/* Rocky's purple color as specified by AB */
+}
+
+#container{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #7251bc;
+}
+
+
+header h1 {
+	font-family: sans-serif;
+}
+
+h2, h3 {
+	padding: 10px;
+	text-align: center;
+}
+/*
+h3 {
+	text-shadow: 2px 2px 4px black;
+	background-color: rgba(255, 255, 255, .2);
+	}
+	*/
+
+
+#strength {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -2;
+}
+
+/*
+#strength:hover{  
+ height:120px;  
+ width:120px;  
+ position:absolute;  
+ top:10;  
+ left:60;  
+ -webkit-transform-origin:0 0;  
+ -webkit-transform: rotate(86deg);  
+ z-index:1;  
+ -webkit-transition:-webkit-transform 0.5s ease-in-out;  
+} 
+*/
+
+
+
+nav {
+	
+	list-style: none;
+	background-color: rgba(255, 255, 255, .2);
+	text-align: center;
+	padding-left: 120px;
+	}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+li a {
+
+	display: block;
+	line-height: 2em;
+	padding: 0 1em;
+	text-decoration: none;
+	margin-right: 5px;
+	color: black;
+	
+	transition-duration: .2;
+	
+}
+
+
+li a:hover {
+	/*
+	color: #e3e3e3;
+	background: #7521bc;
+	
+	transition-duration: .2s;
+	font-size: 110%;
+	*/
+	text-shadow: 1px 1px 4px black;
+}
+
+/***************************************
+* ClearFix code hack
+***************************************/
+
+.cf:before,
+.cf:after {
+	content: " ";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	*zoom: 1;
+}
+
+/****************************************
+*
+* End nav style
+*
+*****************************************/
+
+article {
+	width: 560px;
+	margin: 50px auto;
+	padding: 8px;
+	box-shadow: 
+		1px 1px 5px 2px rgba(0, 0, 0, .4),
+		2px 2px 0 #7251bc;
+	line-height: 1.5;
+	background-color: #7251BC;
+	color: #252525;
+	background: -webkit-linear-gradient(top, #7251bc, #7521bc);
+	/*
+	background-image: url(../img/mochaGrunge.png);
+	background-repeat: repeat-xy;
+	
+	*/
+}
+
+
+/*
+p::first-line {
+	font-weight: bold;
+	font-size: 1em;
+}
+*/
+
+article p::first-letter{
+	font-size: 3em;
+	font-family: 'Great Vibes';
+	font-weight: bold;
+	float: left;
+	padding-right: 9px;
+	text-shadow: 2px 2px 4px black;
+}
+
+
+footer	{
+	margin: auto;
+	text-align: center;
+	background-image: url(strength.svg);
+	background-repeat: no-repeat;
+}
+
+.contact {
+	margin: 0 auto;
+	padding: 20px;
+	color: white;
+	font-size: 80%;
+}
